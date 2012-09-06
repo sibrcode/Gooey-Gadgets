@@ -2,8 +2,7 @@
      File: CustomView.m
  Abstract: Subclass of NSView which handles the drawing of the window content. Circle and pentagon graphics are used, switching between the two depending upon the window's level of transparency.
   Version: 1.2
- 
- 
+  
  */
 
 #import "TransparentBackgroundView.h"
