@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		3058B2AB0F97C67000AB5701 /* TransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3058B2A70F97C67000AB5701 /* TransparentWindow.m */; };
+		3058B2AC0F97C67000AB5701 /* TransparentBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3058B2A90F97C67000AB5701 /* TransparentBackgroundView.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9F18358B12B5534100E8B401 /* Gooey Gadgets.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 9F18358A12B5534100E8B401 /* Gooey Gadgets.sdef */; };
+		9F24B8C113A4570000277CC1 /* TextWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F24B8BF13A4570000277CC1 /* TextWindow.xib */; };
+		9F24B93113A53E2900277CC1 /* MessageWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F24B92F13A53E2900277CC1 /* MessageWindow.xib */; };
+		9F2AC45D12C8603B00056B8A /* ProgressWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2AC45C12C8603B00056B8A /* ProgressWindow.m */; };
+		9F36856912D2D24B00C7B0C7 /* UpdateWindowASC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F36856812D2D24B00C7B0C7 /* UpdateWindowASC.m */; };
+		9F47848813A075DC00BBC0DF /* ProgressWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F47848713A075DC00BBC0DF /* ProgressWindow.xib */; };
+		9F67F39612B5DC9400FF9666 /* DisplayMessageWindowASC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F67F39512B5DC9400FF9666 /* DisplayMessageWindowASC.m */; };
+		9F89A37F12F4D51900D31A73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F89A37E12F4D51900D31A73 /* AppDelegate.m */; };
+		9F89A38912F51DBC00D31A73 /* TableWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F89A38712F51DBC00D31A73 /* TableWindow.xib */; };
+		9F8BA12412D90BD700B1C203 /* TextWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BA12312D90BD700B1C203 /* TextWindow.m */; };
+		9F8BA18D12D97BDB00B1C203 /* DisplayTextWindowASC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BA18C12D97BDB00B1C203 /* DisplayTextWindowASC.m */; };
+		9F941EDF12E36DF000ED3DA9 /* TableWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F941EDE12E36DF000ED3DA9 /* TableWindow.m */; };
+		9F941F3312E39F5600ED3DA9 /* DisplayTableWindowASC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F941F3212E39F5600ED3DA9 /* DisplayTableWindowASC.m */; };
+		9FA392F312C707C000B6830E /* CloseWindowASC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA392F212C707C000B6830E /* CloseWindowASC.m */; };
+		9FA52D3912B5588E00D679AF /* TransparentMessageWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA52D3812B5588E00D679AF /* TransparentMessageWindow.m */; };
+		9FB4EFDA12CECCA500B0FF35 /* DisplayProgressWindowASC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB4EFD912CECCA500B0FF35 /* DisplayProgressWindowASC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenu.xib; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3058B2A60F97C67000AB5701 /* TransparentBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransparentBackgroundView.h; path = Classes/TransparentBackgroundView.h; sourceTree = "<group>"; };
+		3058B2A70F97C67000AB5701 /* TransparentWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransparentWindow.m; path = Classes/TransparentWindow.m; sourceTree = "<group>"; };
+		3058B2A80F97C67000AB5701 /* TransparentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransparentWindow.h; path = Classes/TransparentWindow.h; sourceTree = "<group>"; };
+		3058B2A90F97C67000AB5701 /* TransparentBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransparentBackgroundView.m; path = Classes/TransparentBackgroundView.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Gooey Gadgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gooey Gadgets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F18358A12B5534100E8B401 /* Gooey Gadgets.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; path = "Gooey Gadgets.sdef"; sourceTree = "<group>"; };
+		9F24B8C013A4570000277CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TextWindow.xib; sourceTree = "<group>"; };
+		9F24B93013A53E2900277CC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MessageWindow.xib; sourceTree = "<group>"; };
+		9F2AC45B12C8603B00056B8A /* ProgressWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressWindow.h; path = Classes/ProgressWindow.h; sourceTree = "<group>"; };
+		9F2AC45C12C8603B00056B8A /* ProgressWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressWindow.m; path = Classes/ProgressWindow.m; sourceTree = "<group>"; };
+		9F36856712D2D24B00C7B0C7 /* UpdateWindowASC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdateWindowASC.h; path = Classes/UpdateWindowASC.h; sourceTree = "<group>"; };
+		9F36856812D2D24B00C7B0C7 /* UpdateWindowASC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpdateWindowASC.m; path = Classes/UpdateWindowASC.m; sourceTree = "<group>"; };
+		9F47848713A075DC00BBC0DF /* ProgressWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressWindow.xib; sourceTree = "<group>"; };
+		9F67F39412B5DC9400FF9666 /* DisplayMessageWindowASC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayMessageWindowASC.h; path = Classes/DisplayMessageWindowASC.h; sourceTree = "<group>"; };
+		9F67F39512B5DC9400FF9666 /* DisplayMessageWindowASC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayMessageWindowASC.m; path = Classes/DisplayMessageWindowASC.m; sourceTree = "<group>"; };
+		9F89A37D12F4D51900D31A73 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		9F89A37E12F4D51900D31A73 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		9F89A38812F51DBC00D31A73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TableWindow.xib; sourceTree = "<group>"; };
+		9F8BA12212D90BD700B1C203 /* TableWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableWindow.h; path = Classes/TableWindow.h; sourceTree = "<group>"; };
+		9F8BA12312D90BD700B1C203 /* TextWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextWindow.m; path = Classes/TextWindow.m; sourceTree = "<group>"; };
+		9F8BA18B12D97BDB00B1C203 /* DisplayTextWindowASC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayTextWindowASC.h; path = Classes/DisplayTextWindowASC.h; sourceTree = "<group>"; };
+		9F8BA18C12D97BDB00B1C203 /* DisplayTextWindowASC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayTextWindowASC.m; path = Classes/DisplayTextWindowASC.m; sourceTree = "<group>"; };
+		9F941EDD12E36DF000ED3DA9 /* TableWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableWindow.h; path = Classes/TableWindow.h; sourceTree = "<group>"; };
+		9F941EDE12E36DF000ED3DA9 /* TableWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableWindow.m; path = Classes/TableWindow.m; sourceTree = "<group>"; };
+		9F941F3112E39F5600ED3DA9 /* DisplayTableWindowASC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayTableWindowASC.h; path = Classes/DisplayTableWindowASC.h; sourceTree = "<group>"; };
+		9F941F3212E39F5600ED3DA9 /* DisplayTableWindowASC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayTableWindowASC.m; path = Classes/DisplayTableWindowASC.m; sourceTree = "<group>"; };
+		9FA392F112C707C000B6830E /* CloseWindowASC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CloseWindowASC.h; path = Classes/CloseWindowASC.h; sourceTree = "<group>"; };
+		9FA392F212C707C000B6830E /* CloseWindowASC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CloseWindowASC.m; path = Classes/CloseWindowASC.m; sourceTree = "<group>"; };
+		9FA52D3712B5588E00D679AF /* TransparentMessageWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransparentMessageWindow.h; path = Classes/TransparentMessageWindow.h; sourceTree = "<group>"; };
+		9FA52D3812B5588E00D679AF /* TransparentMessageWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransparentMessageWindow.m; path = Classes/TransparentMessageWindow.m; sourceTree = "<group>"; };
+		9FA52D4912B55BAA00D679AF /* scriptLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scriptLog.h; sourceTree = "<group>"; };
+		9FB4EFD812CECCA500B0FF35 /* DisplayProgressWindowASC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayProgressWindowASC.h; path = Classes/DisplayProgressWindowASC.h; sourceTree = "<group>"; };
+		9FB4EFD912CECCA500B0FF35 /* DisplayProgressWindowASC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayProgressWindowASC.m; path = Classes/DisplayProgressWindowASC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9F89A37D12F4D51900D31A73 /* AppDelegate.h */,
+				9F89A37E12F4D51900D31A73 /* AppDelegate.m */,
+				9FA392F112C707C000B6830E /* CloseWindowASC.h */,
+				9FA392F212C707C000B6830E /* CloseWindowASC.m */,
+				9F67F39412B5DC9400FF9666 /* DisplayMessageWindowASC.h */,
+				9F67F39512B5DC9400FF9666 /* DisplayMessageWindowASC.m */,
+				9FB4EFD812CECCA500B0FF35 /* DisplayProgressWindowASC.h */,
+				9FB4EFD912CECCA500B0FF35 /* DisplayProgressWindowASC.m */,
+				9F941F3112E39F5600ED3DA9 /* DisplayTableWindowASC.h */,
+				9F941F3212E39F5600ED3DA9 /* DisplayTableWindowASC.m */,
+				9F8BA18B12D97BDB00B1C203 /* DisplayTextWindowASC.h */,
+				9F8BA18C12D97BDB00B1C203 /* DisplayTextWindowASC.m */,
+				9F2AC45B12C8603B00056B8A /* ProgressWindow.h */,
+				9F2AC45C12C8603B00056B8A /* ProgressWindow.m */,
+				9F941EDD12E36DF000ED3DA9 /* TableWindow.h */,
+				9F941EDE12E36DF000ED3DA9 /* TableWindow.m */,
+				9F8BA12212D90BD700B1C203 /* TableWindow.h */,
+				9F8BA12312D90BD700B1C203 /* TextWindow.m */,
+				9FA52D3712B5588E00D679AF /* TransparentMessageWindow.h */,
+				9FA52D3812B5588E00D679AF /* TransparentMessageWindow.m */,
+				3058B2A80F97C67000AB5701 /* TransparentWindow.h */,
+				3058B2A70F97C67000AB5701 /* TransparentWindow.m */,
+				3058B2A60F97C67000AB5701 /* TransparentBackgroundView.h */,
+				3058B2A90F97C67000AB5701 /* TransparentBackgroundView.m */,
+				9F36856712D2D24B00C7B0C7 /* UpdateWindowASC.h */,
+				9F36856812D2D24B00C7B0C7 /* UpdateWindowASC.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Gooey Gadgets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* RoundTransparentWindow */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = RoundTransparentWindow;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9FA52D4912B55BAA00D679AF /* scriptLog.h */,
+				32CA4F630368D1EE00C91783 /* Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F24B92F13A53E2900277CC1 /* MessageWindow.xib */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				9F47848713A075DC00BBC0DF /* ProgressWindow.xib */,
+				9F24B8BF13A4570000277CC1 /* TextWindow.xib */,
+				9F89A38712F51DBC00D31A73 /* TableWindow.xib */,
+				9F18358A12B5534100E8B401 /* Gooey Gadgets.sdef */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Gooey Gadgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Gooey Gadgets" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gooey Gadgets";
+			productInstallPath = "$(HOME)/Applications";
+			productName = RoundTransparentWindow;
+			productReference = 8D1107320486CEB800E47090 /* Gooey Gadgets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Gooey Gadgets" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* RoundTransparentWindow */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Gooey Gadgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				9F18358B12B5534100E8B401 /* Gooey Gadgets.sdef in Resources */,
+				9F89A38912F51DBC00D31A73 /* TableWindow.xib in Resources */,
+				9F47848813A075DC00BBC0DF /* ProgressWindow.xib in Resources */,
+				9F24B8C113A4570000277CC1 /* TextWindow.xib in Resources */,
+				9F24B93113A53E2900277CC1 /* MessageWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				3058B2AB0F97C67000AB5701 /* TransparentWindow.m in Sources */,
+				3058B2AC0F97C67000AB5701 /* TransparentBackgroundView.m in Sources */,
+				9FA52D3912B5588E00D679AF /* TransparentMessageWindow.m in Sources */,
+				9F67F39612B5DC9400FF9666 /* DisplayMessageWindowASC.m in Sources */,
+				9FA392F312C707C000B6830E /* CloseWindowASC.m in Sources */,
+				9F2AC45D12C8603B00056B8A /* ProgressWindow.m in Sources */,
+				9FB4EFDA12CECCA500B0FF35 /* DisplayProgressWindowASC.m in Sources */,
+				9F36856912D2D24B00C7B0C7 /* UpdateWindowASC.m in Sources */,
+				9F8BA12412D90BD700B1C203 /* TextWindow.m in Sources */,
+				9F8BA18D12D97BDB00B1C203 /* DisplayTextWindowASC.m in Sources */,
+				9F941EDF12E36DF000ED3DA9 /* TableWindow.m in Sources */,
+				9F941F3312E39F5600ED3DA9 /* DisplayTableWindowASC.m in Sources */,
+				9F89A37F12F4D51900D31A73 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = InfoPlist.strings;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9F24B8BF13A4570000277CC1 /* TextWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F24B8C013A4570000277CC1 /* en */,
+			);
+			name = TextWindow.xib;
+			sourceTree = "<group>";
+		};
+		9F24B92F13A53E2900277CC1 /* MessageWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F24B93013A53E2900277CC1 /* en */,
+			);
+			name = MessageWindow.xib;
+			sourceTree = "<group>";
+		};
+		9F89A38712F51DBC00D31A73 /* TableWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F89A38812F51DBC00D31A73 /* en */,
+			);
+			name = TableWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXPORTED_SYMBOLS_FILE = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "Gooey Gadgets";
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXPORTED_SYMBOLS_FILE = "";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Gooey Gadgets";
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 ppc ppc64 ppc7400 ppc970";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				EXPORTED_SYMBOLS_FILE = exported_symbols;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MODULE_VERSION = /Volumes/data/_Projects;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = Release;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				EXPORTED_SYMBOLS_FILE = exported_symbols;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INSTALL_PATH[sdk=*]" = /Volumes/data/_Projects;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MODULE_VERSION = /Volumes/data/_Projects;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = Release;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Gooey Gadgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Gooey Gadgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

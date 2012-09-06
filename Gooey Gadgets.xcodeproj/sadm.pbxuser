@@ -1,0 +1,152 @@
+// !$*UTF8*$!
+{
+	189608A814450B7E00BFA252 /* Gooey Gadgets */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Gooey Gadgets";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	189608B914450BC900BFA252 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	189608BA14450BC900BFA252 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	18A970381445185100866A18 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9F941F3212E39F5600ED3DA9 /* DisplayTableWindowASC.m */;
+		name = "DisplayTableWindowASC.m: 26";
+		rLen = 0;
+		rLoc = 668;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 271;
+	};
+	18A970391445185100866A18 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+	};
+	18A9703A1445185100866A18 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Volumes/data/_Projects/Gooey Gadgets/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 189608A814450B7E00BFA252 /* Gooey Gadgets */;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8D1107260486CEB800E47090 /* Gooey Gadgets */;
+		codeSenseManager = 189608BA14450BC900BFA252 /* Code sense */;
+		executables = (
+			189608A814450B7E00BFA252 /* Gooey Gadgets */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 340072032;
+			PBXWorkspaceStateSaveDate = 340072032;
+		};
+		perUserProjectItems = {
+			18A970381445185100866A18 /* PBXTextBookmark */ = 18A970381445185100866A18 /* PBXTextBookmark */;
+			18A970391445185100866A18 /* PBXBookmark */ = 18A970391445185100866A18 /* PBXBookmark */;
+			18A9703A1445185100866A18 /* PlistBookmark */ = 18A9703A1445185100866A18 /* PlistBookmark */;
+		};
+		sourceControlManager = 189608B914450BC900BFA252 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* Gooey Gadgets */ = {
+		activeExec = 0;
+		executables = (
+			189608A814450B7E00BFA252 /* Gooey Gadgets */,
+		);
+	};
+	9F941F3212E39F5600ED3DA9 /* DisplayTableWindowASC.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {649, 2262}}";
+			sepNavSelRange = "{668, 0}";
+			sepNavVisRange = "{271, 655}";
+		};
+	};
+}

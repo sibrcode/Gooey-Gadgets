@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Dictionary">
+	<!-- xi:include href="file:///System/Library/ScriptingDefinitions/CocoaStandard.sdef" xpointer="xpointer(/dictionary/suite)"/-->
+	<!-- specific suite(s) for the application follow... -->
+	<suite name="Gooey Gadgets" code="GGsb" description="Terminology for the Gooey Gadgets.">
+		<command name="dismiss window" code="GGClsWin" description="close the given window number">
+			<cocoa class="CloseWindowASC"/>
+			<direct-parameter description="the window number to close" type="integer"/>
+			<result description="returns true if the window was found" type="boolean"/>
+		</command>
+		<command name="display message window" code="GGDMsgWn" description="Create a translucent window with one line message">
+			<cocoa class="DisplayMessageWindowASC"/>
+			<direct-parameter description="a brief message to display" type="text"/>
+			<parameter name="giving up after" code="givu" description="number of seconds to wait before dismissing window" type="number" optional="yes">
+				<cocoa key="GiveUpAfter"/>
+			</parameter>
+			<parameter name="screen" code="scPt" description="X,Y coordinates for any point within screen to be used to display the window" type="point" optional="yes">
+				<cocoa key="ScreenPt"/>
+			</parameter>
+			<parameter name="transparency" code="wTrn" description="the window&apos;s background transparency (alpha) as a percentage" type="real" optional="yes">
+				<cocoa key="Transparency"/>
+			</parameter>
+			<result description="the window id" type="integer"/>
+		</command>
+		<command name="display progress window" code="GGDPrgWn" description="Create and display a window with animated progress control">
+			<cocoa class="DisplayProgressWindowASC"/>
+			<direct-parameter description="window title" type="text"/>
+			<parameter name="button title" code="btnm" description="short name to give button (defaults to &apos;cancel&apos;)" type="text" optional="yes">
+				<cocoa key="ButtonTitle"/>
+			</parameter>
+			<parameter name="maximum value" code="mxvl" description="highest value for indicator, or 0 for an indeterminate progress indicator" type="integer" optional="yes">
+				<cocoa key="MaxValue"/>
+			</parameter>
+			<parameter name="label" code="labl" description="One or two line message to display with indicator" type="text" optional="yes">
+				<cocoa key="Label"/>
+			</parameter>
+			<parameter hidden="yes" name="screen" code="scPt" description="X,Y coordinates for any point within screen to be used to display the window" type="point" optional="yes">
+				<cocoa key="ScreenPt"/>
+			</parameter>
+			<result description="the window id" type="integer"/>
+		</command>
+		<command name="display table window" code="GGDTblWn" description="Create and display a window with text field">
+			<cocoa class="DisplayTableWindowASC"/>
+			<direct-parameter description="window title" type="text"/>
+			<parameter name="button title" code="btnm" description="short name to give button (defaults to &apos;OK&apos;)" type="text" optional="yes">
+				<cocoa key="ButtonTitle"/>
+			</parameter>
+			<parameter name="columns" code="colN" description="names to use for columns" optional="yes">
+				<cocoa key="ColNames"/>
+				<type type="number" list="yes"/>
+				<type type="text" list="yes"/>
+			</parameter>
+			<parameter name="widths" code="colW" description="initial widths to use for columns" optional="yes">
+				<cocoa key="ColWidths"/>
+				<type type="number" list="yes"/>
+			</parameter>
+			<parameter name="data" code="inSL" description="a list containing rows and columns to display in table" optional="no">
+				<cocoa key="Data"/>
+				<type type="any" list="yes"/>
+			</parameter>
+			<parameter name="label" code="labl" description="Label below table" type="text" optional="yes">
+				<cocoa key="Label"/>
+			</parameter>
+			<parameter hidden="yes" name="screen" code="scPt" description="X,Y coordinates to place bottom left of window at" type="point" optional="yes">
+				<cocoa key="ScreenPt"/>
+			</parameter>
+			<result description="the window id" type="integer"/>
+		</command>
+		<command name="display text window" code="GGDTxtWn" description="Create and display a window with text field">
+			<cocoa class="DisplayTextWindowASC"/>
+			<direct-parameter description="window title" type="text"/>
+			<parameter name="button title" code="btnm" description="short name to give button (defaults to &apos;OK&apos;)" type="text" optional="yes">
+				<cocoa key="ButtonTitle"/>
+			</parameter>
+			<parameter name="label" code="labl" description="Label below text" type="text" optional="yes">
+				<cocoa key="Label"/>
+			</parameter>
+			<parameter name="message" code="mesS" description="text to put in scrolling text field" type="text" optional="yes">
+				<cocoa key="Message"/>
+			</parameter>
+			<parameter hidden="yes" name="screen" code="scPt" description="X,Y coordinates to place bottom left of window at" type="point" optional="yes">
+				<cocoa key="ScreenPt"/>
+			</parameter>
+			<result description="the window id" type="integer"/>
+		</command>
+		<command name="update window" code="GGUpdWin" description="Update a window&apos;s values">
+			<cocoa class="UpdateWindowASC"/>
+			<direct-parameter description="window number" type="integer"/>
+			<parameter name="label" code="labl" description="short message to display" type="text" optional="yes">
+				<cocoa key="Label"/>
+			</parameter>
+			<parameter name="message" code="mesS" description="text to display" type="text" optional="yes">
+				<cocoa key="Message"/>
+			</parameter>
+			<parameter name="progress" code="prvl" description="value to use for progress indicator" type="number" optional="yes">
+				<cocoa key="Progress"/>
+			</parameter>
+			<result description="True if window exists and command was succesful" type="boolean"/>
+		</command>
+	</suite>
+</dictionary>
